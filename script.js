@@ -1,31 +1,4 @@
 
-// const botao = document.getElementById("btn");
-
-// botao.addEventListener("click", () => {
-//     const dadosUsuario = {
-//         nome: document.getElementById("nome").value.trim(),
-//         usuario: document.getElementById("usuario").value.trim(),
-//         senha: document.getElementById("senha").value.trim(),
-//         email: document.getElementById("email").value.trim(),
-//         data: document.getElementById("data").value.trim(),
-//         idade: document.getElementById("idade").value.trim()
-//     }
-
-//     for (let campo in dadosUsuario) {
-//         if (dadosUsuario[campo] === "") {
-//             alert(`Digite o campo ${campo}!`);
-//             return;
-//         }
-//     }
-//     try {
-//         localStorage.setItem("dadosUsuario", JSON.stringify(dadosUsuario));
-//         alert("Cadastro realizado com sucesso!")
-
-//     } catch (error) {
-//         console.error("Ocorreu um erro ao salvar:", error.message);
-//     }
-// });
-
 const botao = document.getElementById("btn");
 
 botao.addEventListener("click", () => {

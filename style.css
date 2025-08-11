@@ -1,10 +1,8 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     background: #f4f6f8;
@@ -14,26 +12,21 @@ body {
     align-items: center;
     padding: 20px;
 }
-
-/* Cabeçalho */
 header {
     margin-bottom: 20px;
     text-align: center;
 }
-
 header h1 {
     font-size: 1.5rem;
     color: #444;
 }
-
-/* Formulário */
 main {
     background: white;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
     max-width: 400px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px 10px #82b1e2;
 }
 
 form section {
@@ -59,7 +52,6 @@ input:focus {
     border-color: #007bff;
 }
 
-/* Botão */
 button {
     width: 100%;
     padding: 12px;
